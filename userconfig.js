@@ -340,8 +340,6 @@ const default_config = {
             },
           ],
         },
-        {
-        },
       ],
     },
     {
