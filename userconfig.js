@@ -135,35 +135,6 @@ const default_config = {
             },
           ],
         },
-        {
-          name: "services",
-          links: [
-            {
-              name: "portainer",
-              url: "http://127.0.0.1:9000",
-              icon: "brand-docker",
-              icon_color: palette.green,
-            },
-            {
-              name: "syncthing",
-              url: "http://127.0.0.1:8384/",
-              icon: "refresh",
-              icon_color: palette.peach,
-            },
-            {
-              name: "stirling-pdf",
-              url: "http://127.0.0.1:7896/",
-              icon: "pdf",
-              icon_color: palette.red,
-            },
-            {
-              name: "vercel",
-              url: "https://vercel.com/dashboard",
-              icon: "brand-vercel",
-              icon_color: palette.blue,
-            },
-          ],
-        },
       ],
     },
     {
