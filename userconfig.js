@@ -29,6 +29,12 @@ const default_config = {
               icon_color: palette.green,
             },
             {
+              name: "X",
+              url: "x.com",
+              icon: "brand-x",
+              icon_color: palette.black,
+            },
+            {
               name: "reddit",
               url: "https://www.reddit.com/",
               icon: "brand-reddit",
