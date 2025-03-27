@@ -146,7 +146,7 @@ icon_color: palette.green,
 {
 name: "exercism",
 url: "https://exercism.org/",
-icon: "calculator",
+icn: "calculator",
 icon_color: palette.blue,
 },
 ],
@@ -522,6 +522,3 @@ const CONFIG = new Config(default_config, palette);
 const root = document.querySelector(":root");
 root.style.setProperty("--bg", palette.mantle);
 root.style.setProperty("--accent", palette.green);
-
-Было бы хорошо над deals в gaming добавить маркетплейсы типо стима и епик геймс
-
