@@ -32,7 +32,7 @@ const default_config = {
               name: "X",
               url: "x.com",
               icon: "brand-x",
-              icon_color: palette.black,
+              icon_color: palette.white,
             },
             {
               name: "reddit",
@@ -96,17 +96,6 @@ const default_config = {
               name: "duolingo",
               url: "https://duolingo.com",
               icon: "language-hiragana",
-              icon_color: palette.green,
-            },
-          ],
-        },
-        {
-          name: "job",
-          links: [
-            {
-              name: "linkedin",
-              url: "https://www.linkedin.com/",
-              icon: "brand-linkedin",
               icon_color: palette.green,
             },
           ],
