@@ -20,7 +20,7 @@ const default_config = {
       background_url: "src/img/banners/window-room.png",
       categories: [
         {
-          name: "media/rrss",
+          name: "media",
           links: [
             {
               name: "mastodon",
@@ -51,12 +51,6 @@ const default_config = {
               url: "https://news.ycombinator.com/ask",
               icon: "news",
               icon_color: palette.mauve,
-            },
-            {
-              name: "lemmy",
-              url: "https://lemmy.ml/",
-              icon: "users",
-              icon_color: palette.sky,
             },
           ],
         },
