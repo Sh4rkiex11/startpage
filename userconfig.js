@@ -396,12 +396,6 @@ const default_config = {
               icon_color: palette.green,
             },
             {
-              name: "excalidraw",
-              url: "https://excalidraw.com/",
-              icon: "pencil",
-              icon_color: palette.peach,
-            },
-            {
               name: "palette-generator",
               url: "https://colpat.itsvg.in/dashboard",
               icon: "palette",
