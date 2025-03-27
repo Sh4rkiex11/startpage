@@ -439,7 +439,6 @@ const default_config = {
               icon_color: palette.red,
             },
             {
-            {
               name: "speed-test",
               url: "https://librespeed.org/",
               icon: "brand-speedtest",
@@ -451,7 +450,6 @@ const default_config = {
               icon: "transform",
               icon_color: palette.lavender,
             },
-            {
           ],
         },
         {
