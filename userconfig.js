@@ -106,8 +106,8 @@ const default_config = {
             {
               name: "ozon",
               url: "https://ozon.ru",
-              icon: "brand-ozon",
-              icon_color: palette.peach,
+              icon: "shopping-bag",
+              icon_color: palette.blue,
             },
           ],
         },
@@ -142,18 +142,6 @@ const default_config = {
               url: "https://leetcode.com",
               icon: "code-plus",
               icon_color: palette.green,
-            },
-            {
-              name: "stackoverflow",
-              url: "https://stackoverflow.com",
-              icon: "brand-stackoverflow",
-              icon_color: palette.peach,
-            },
-            {
-              name: "w3schools",
-              url: "https://www.w3schools.com/",
-              icon: "school",
-              icon_color: palette.red,
             },
             {
               name: "exercism",
@@ -224,12 +212,6 @@ const default_config = {
               icon: "playstation-square",
               icon_color: palette.blue,
             },
-            {
-              name: "r/xbox",
-              url: "https://www.reddit.com/r/xbox/",
-              icon: "brand-xbox",
-              icon_color: palette.mauve,
-            },
           ],
         },
         {
@@ -247,34 +229,16 @@ const default_config = {
               icon: "pacman",
               icon_color: palette.peach,
             },
-            {
-              name: "games megathread",
-              url: "https://rentry.org/pgames",
-              icon: "device-gamepad",
-              icon_color: palette.red,
-            },
           ],
         },
         {
           name: "mods",
           links: [
             {
-              name: "nexus mods",
-              url: "https://www.nexusmods.com/",
-              icon: "hexagons",
-              icon_color: palette.green,
-            },
-            {
               name: "modrinth",
               url: "https://modrinth.com/",
               icon: "brand-minecraft",
               icon_color: palette.peach,
-            },
-            {
-              name: "moddb",
-              url: "https://www.moddb.com",
-              icon: "file-type-sql",
-              icon_color: palette.red,
             },
           ],
         },
@@ -329,12 +293,6 @@ const default_config = {
               icon_color: palette.red,
             },
             {
-              name: "tidal",
-              url: "https://listen.tidal.com/",
-              icon: "brand-tidal",
-              icon_color: palette.blue,
-            },
-            {
               name: "genius",
               url: "https://genius.com/",
               icon: "abc",
@@ -345,12 +303,6 @@ const default_config = {
         {
           name: "rating/tracking",
           links: [
-            {
-              name: "AOTY",
-              url: "https://www.albumoftheyear.org/",
-              icon: "calendar-time",
-              icon_color: palette.green,
-            },
             {
               name: "rateyourmusic",
               url: "https://rateyourmusic.com/",
@@ -363,29 +315,11 @@ const default_config = {
               icon: "brand-lastfm",
               icon_color: palette.red,
             },
-            {
-              name: "listenbrainz",
-              url: "https://listenbrainz.org",
-              icon: "ear",
-              icon_color: palette.blue,
-            },
           ],
         },
         {
           name: "discussion",
           links: [
-            {
-              name: "r/musicproduction",
-              url: "https://www.reddit.com/r/musicproduction/",
-              icon: "device-speaker",
-              icon_color: palette.green,
-            },
-            {
-              name: "r/hiphopheads",
-              url: "https://www.reddit.com/r/hiphopheads/",
-              icon: "headphones",
-              icon_color: palette.peach,
-            },
             {
               name: "r/audiophile",
               url: "https://www.reddit.com/r/audiophile/",
@@ -407,39 +341,6 @@ const default_config = {
           ],
         },
         {
-          name: "resources",
-          links: [
-            {
-              name: "freesound",
-              url: "https://freesound.org/",
-              icon: "volume",
-              icon_color: palette.green,
-            },
-            {
-              name: "pluginboutique",
-              url: "https://www.pluginboutique.com/",
-              icon: "building-store",
-              icon_color: palette.peach,
-            },
-            {
-              name: "pianobook",
-              url: "https://www.pianobook.co.uk",
-              icon: "piano",
-              icon_color: palette.red,
-            },
-            {
-              name: "musescore",
-              url: "https://musescore.com/",
-              icon: "numbers",
-              icon_color: palette.blue,
-            },
-            {
-              name: "songsterr",
-              url: "https://www.songsterr.com/",
-              icon: "vinyl",
-              icon_color: palette.mauve,
-            },
-          ],
         },
       ],
     },
@@ -450,18 +351,6 @@ const default_config = {
         {
           name: "media",
           links: [
-            {
-              name: "unsplash",
-              url: "https://unsplash.com",
-              icon: "brand-unsplash",
-              icon_color: palette.green,
-            },
-            {
-              name: "pixiv",
-              url: "https://www.pixiv.net/en/",
-              icon: "artboard",
-              icon_color: palette.peach,
-            },
             {
               name: "pinterest",
               url: "https://www.pinterest.com/",
@@ -497,12 +386,6 @@ const default_config = {
               icon: "bat",
               icon_color: palette.red,
             },
-            {
-              name: "rose-pine",
-              url: "https://rosepinetheme.com/",
-              icon: "flower",
-              icon_color: palette.blue,
-            },
           ],
         },
         {
@@ -519,12 +402,6 @@ const default_config = {
               url: "https://excalidraw.com/",
               icon: "pencil",
               icon_color: palette.peach,
-            },
-            {
-              name: "squoosh",
-              url: "https://squoosh.app/",
-              icon: "aspect-ratio",
-              icon_color: palette.red,
             },
             {
               name: "palette-generator",
@@ -550,12 +427,6 @@ const default_config = {
           name: "general",
           links: [
             {
-              name: "alternative-to",
-              url: "https://alternativeto.net/",
-              icon: "box-multiple",
-              icon_color: palette.green,
-            },
-            {
               name: "deepl",
               url: "https://www.deepl.com",
               icon: "language",
@@ -568,22 +439,11 @@ const default_config = {
               icon_color: palette.red,
             },
             {
-              name: "dub",
-              url: "https://dub.co/",
-              icon: "external-link",
-              icon_color: palette.blue,
-            },
             {
               name: "speed-test",
               url: "https://librespeed.org/",
               icon: "brand-speedtest",
               icon_color: palette.mauve,
-            },
-            {
-              name: ".to",
-              url: "https://rentry.co/tosites",
-              icon: "arrow-loop-right",
-              icon_color: palette.sky,
             },
             {
               name: "cloudconvert",
@@ -592,52 +452,22 @@ const default_config = {
               icon_color: palette.lavender,
             },
             {
-              name: "is-it-down",
-              url: "https://downforeveryoneorjustme.com/",
-              icon: "server-off",
-              icon_color: palette.flamingo,
-            },
-            {
-              name: "selfh.st",
-              url: "https://selfh.st/",
-              icon: "server-2",
-              icon_color: palette.pink,
-            },
           ],
         },
         {
           name: "piracy",
           links: [
             {
-              name: "fmhy",
-              url: "https://fmhy.net/",
-              icon: "barrier-block",
-              icon_color: palette.green,
-            },
-            {
-              name: "megathread",
-              url: "https://rentry.org/megathread",
+              name: "appstorrent",
+              url: "https://appstorrent.ru",
               icon: "skull",
               icon_color: palette.peach,
-            },
-
-            {
-              name: "mobilism",
-              url: "https://forum.mobilism.me/",
-              icon: "device-mobile",
-              icon_color: palette.red,
             },
           ],
         },
         {
           name: "privacy",
           links: [
-            {
-              name: "adblock-test",
-              url: "https://d3ward.github.io/toolz/adblock.html",
-              icon: "lock-access",
-              icon_color: palette.green,
-            },
             {
               name: "privacy-guides",
               url: "https://www.privacyguides.org/en/",
@@ -649,18 +479,6 @@ const default_config = {
               url: "https://www.reddit.com/r/privacy/",
               icon: "door-off",
               icon_color: palette.red,
-            },
-            {
-              name: "guerrilla-mail",
-              url: "https://www.guerrillamail.com",
-              icon: "trash",
-              icon_color: palette.blue,
-            },
-            {
-              name: "cleanurl",
-              url: "https://12ft.io/",
-              icon: "spray",
-              icon_color: palette.mauve,
             },
           ],
         },
@@ -680,24 +498,6 @@ const default_config = {
               icon_color: palette.peach,
             },
             {
-              name: "hackthebox",
-              url: "https://www.hackthebox.com/",
-              icon: "biohazard",
-              icon_color: palette.red,
-            },
-            {
-              name: "triage",
-              url: "https://tria.ge/",
-              icon: "dna-2",
-              icon_color: palette.blue,
-            },
-            {
-              name: "cyberchef",
-              url: "https://gchq.github.io/CyberChef/",
-              icon: "chef-hat",
-              icon_color: palette.mauve,
-            },
-            {
               name: "web-check",
               url: "https://web-check.xyz/",
               icon: "search",
@@ -715,14 +515,8 @@ const default_config = {
               icon_color: palette.green,
             },
             {
-              name: "huggingface",
-              url: "https://huggingface.co/",
-              icon: "robot",
-              icon_color: palette.peach,
-            },
-            {
-              name: "open-webui",
-              url: "http://127.0.0.1:8080/",
+              name: "deepseek",
+              url: "http://chat.deepseek.com",
               icon: "message-chatbot",
               icon_color: palette.red,
             },
