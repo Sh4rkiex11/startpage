@@ -65,13 +65,13 @@ const default_config = {
           links: [
             {
               name: "mail",
-              url: "https://mail.proton.me",
-              icon: "brand-campaignmonitor",
+              url: "https://mail.google.com",
+              icon: "brand-gmail",
               icon_color: palette.green,
             },
             {
               name: "calendar",
-              url: "https://calendar.proton.me",
+              url: "https://calendar.google.com",
               icon: "calendar-filled",
               icon_color: palette.peach,
             },
@@ -83,8 +83,8 @@ const default_config = {
             },
             {
               name: "drive",
-              url: "https://drive.proton.me",
-              icon: "cloud",
+              url: "https://drive.google.com",
+              icon: "brand-google-drive",
               icon_color: palette.blue,
             },
           ],
@@ -93,22 +93,10 @@ const default_config = {
           name: "school",
           links: [
             {
-              name: "aules",
-              url: "https://aules.edu.gva.es/semipresencial/my/index.php?lang=es",
-              icon: "school",
+              name: "duolingo",
+              url: "https://duolingo.com",
+              icon: "language-hiragana",
               icon_color: palette.green,
-            },
-            {
-              name: "outlook",
-              url: "https://outlook.office.com/mail/",
-              icon: "inbox",
-              icon_color: palette.peach,
-            },
-            {
-              name: "aws",
-              url: "https://awsacademy.instructure.com/",
-              icon: "brand-aws",
-              icon_color: palette.red,
             },
           ],
         },
