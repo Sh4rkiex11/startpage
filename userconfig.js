@@ -32,7 +32,7 @@ const default_config = {
               name: "X",
               url: "x.com",
               icon: "brand-x",
-              icon_color: palette.white,
+              icon_color: palette.mauve,
             },
             {
               name: "reddit",
@@ -90,7 +90,7 @@ const default_config = {
           ],
         },
         {
-          name: "school",
+          name: "learn",
           links: [
             {
               name: "duolingo",
@@ -104,34 +104,10 @@ const default_config = {
           name: "shopping",
           links: [
             {
-              name: "pccomponentes",
-              url: "https://www.pccomponentes.com/",
-              icon: "device-desktop",
-              icon_color: palette.green,
-            },
-            {
-              name: "amazon",
-              url: "https://www.amazon.es/",
-              icon: "brand-amazon",
+              name: "ozon",
+              url: "https://ozon.ru",
+              icon: "brand-ozon",
               icon_color: palette.peach,
-            },
-            {
-              name: "amazon-tracker",
-              url: "https://camelcamelcamel.com/",
-              icon: "chart-area",
-              icon_color: palette.red,
-            },
-            {
-              name: "chollometro",
-              url: "https://www.chollometro.com/",
-              icon: "basket",
-              icon_color: palette.blue,
-            },
-            {
-              name: "kimovil",
-              url: "https://www.kimovil.com/en/",
-              icon: "cell-signal-5",
-              icon_color: palette.mauve,
             },
           ],
         },
@@ -155,18 +131,6 @@ const default_config = {
               url: "https://dev.to/",
               icon: "article",
               icon_color: palette.peach,
-            },
-            {
-              name: "wakatime",
-              url: "https://wakatime.com",
-              icon: "24-hours",
-              icon_color: palette.red,
-            },
-            {
-              name: "dotfyle",
-              url: "https://dotfyle.com/",
-              icon: "puzzle",
-              icon_color: palette.blue,
             },
           ],
         },
@@ -200,65 +164,6 @@ const default_config = {
           ],
         },
         {
-          name: "tools",
-          links: [
-            {
-              name: "regex101",
-              url: "https://regex101.com/",
-              icon: "regex",
-              icon_color: palette.green,
-            },
-            {
-              name: "hoopscotch",
-              url: "https://hoppscotch.io/",
-              icon: "api",
-              icon_color: palette.peach,
-            },
-            {
-              name: "searchcode",
-              url: "https://searchcode.com/",
-              icon: "zoom-code",
-              icon_color: palette.red,
-            },
-            {
-              name: "codepen",
-              url: "https://codepen.io/",
-              icon: "brand-codepen",
-              icon_color: palette.blue,
-            },
-            {
-              name: "readme.so",
-              url: "https://readme.so/editor",
-              icon: "book-2",
-              icon_color: palette.mauve,
-            },
-            {
-              name: "postgres-new",
-              url: "https://postgres.new/",
-              icon: "database",
-              icon_color: palette.sky,
-            },
-            {
-              name: "penpot",
-              url: "https://penpot.app/",
-              icon: "edit-circle",
-              icon_color: palette.lavender,
-            },
-            {
-              name: "jsoncrack",
-              url: "https://jsoncrack.com/editor",
-              icon: "info-square-rounded",
-              icon_color: palette.flamingo,
-            },
-            {
-              name: "it-tools",
-              url: "https://it-tools.tech/",
-              icon: "tools",
-              icon_color: palette.pink,
-            },
-          ],
-        },
-        {
           name: "docs",
           links: [
             {
@@ -266,18 +171,6 @@ const default_config = {
               url: "https://devdocs.io/",
               icon: "books",
               icon_color: palette.green,
-            },
-            {
-              name: "mdn",
-              url: "https://developer.mozilla.org/en-US/",
-              icon: "brand-firefox",
-              icon_color: palette.peach,
-            },
-            {
-              name: "cheatsheets",
-              url: "https://cheatsheets.zip/",
-              icon: "file-spreadsheet",
-              icon_color: palette.red,
             },
           ],
         },
@@ -287,29 +180,6 @@ const default_config = {
       name: "gaming",
       background_url: "src/img/banners/doom-slayer.png",
       categories: [
-        {
-          name: "stores",
-          links: [
-            {
-              name: "steam",
-              url: "https://store.steampowered.com/",
-              icon: "brand-steam",
-              icon_color: palette.green,
-            },
-            {
-              name: "epic",
-              url: "https://store.epicgames.com",
-              icon: "brand-fortnite",
-              icon_color: palette.peach,
-            },
-            {
-              name: "gog",
-              url: "https://www.gog.com",
-              icon: "brand-appgallery",
-              icon_color: palette.red,
-            },
-          ],
-        },
         {
           name: "deals",
           links: [
