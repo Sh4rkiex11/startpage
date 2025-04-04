@@ -33,7 +33,7 @@
 
 body {
   background-color: var(--bg);
-  height: 110vh;
+  height: 100vh;
   width: 100%;
   display: flex;
   overflow: hidden;
