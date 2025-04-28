@@ -1,5 +1,5 @@
 // latte / frappe / macchiato / mocha
-const palette = frappe;
+const palette = mocha;
 
 const default_config = {
   overrideStorage: true,
@@ -160,6 +160,12 @@ const default_config = {
               icon: "books",
               icon_color: palette.green,
             },
+            {
+              name: "Fabric",
+              url: "https://fabricmc.net/wiki/start",
+              icon: "fabric",
+              icon_color: palette.peach,
+            }
           ],
         },
       ],
@@ -321,12 +327,6 @@ const default_config = {
           name: "discussion",
           links: [
             {
-              name: "r/audiophile",
-              url: "https://www.reddit.com/r/audiophile/",
-              icon: "ear",
-              icon_color: palette.red,
-            },
-            {
               name: "r/music",
               url: "https://www.reddit.com/r/music/",
               icon: "music-heart",
@@ -441,17 +441,6 @@ const default_config = {
               url: "https://cloudconvert.com/",
               icon: "transform",
               icon_color: palette.lavender,
-            },
-          ],
-        },
-        {
-          name: "piracy",
-          links: [
-            {
-              name: "appstorrent",
-              url: "https://appstorrent.ru",
-              icon: "skull",
-              icon_color: palette.peach,
             },
           ],
         },
