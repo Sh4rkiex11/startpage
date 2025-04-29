@@ -1,24 +1,6 @@
 # Security Policy
+If you find any security vulnerabilities, please report them by sending us an email at theretrobiz@gmail.com.
 
-- [Security Policy](#security-policy)
-  - [Supported Versions](#supported-versions)
-  - [Reporting a Vulnerability](#reporting-a-vulnerability)
+I appreciate your contribution to improving the security of this project.
 
-## Supported Versions
-
-Use this section to tell people about which versions of your project are currently being supported
-with security updates.
-
-| Version | Supported          |
-| ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| \< 4.0  | :x:                |
-
-## Reporting a Vulnerability
-
-Use this section to tell people how to report a vulnerability.
-
-Tell them where to go, how often they can expect to get an update on a reported vulnerability, what
-to expect if the vulnerability is accepted or declined, etc.
+Thank you for helping to keep this project safe and secure!
