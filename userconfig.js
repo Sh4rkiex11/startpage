@@ -163,7 +163,7 @@ const default_config = {
             {
               name: "Fabric",
               url: "https://fabricmc.net/wiki/start",
-              icon: "blocks",
+              icon: "books",
               icon_color: palette.peach,
             }
           ],
