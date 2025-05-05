@@ -149,6 +149,12 @@ const default_config = {
               icon: "calculator",
               icon_color: palette.blue,
             },
+            {
+              name: "sololearn",
+              url: "https://sololearn.com/",
+              icon: "brand-codesandbox",
+              icon_color: palette.peach,
+            },
           ],
         },
         {
@@ -233,6 +239,12 @@ const default_config = {
               name: "r/emulation",
               url: "https://www.reddit.com/r/emulation/",
               icon: "pacman",
+              icon_color: palette.peach,
+            },
+            {
+              name: "retroarch",
+              url: "https://www.retroarch.com/",
+              icon: "device-gamepad-2",
               icon_color: palette.peach,
             },
           ],
