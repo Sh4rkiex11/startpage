@@ -1,4 +1,3 @@
-// latte / frappe / macchiato / mocha
 const palette = mocha;
 
 const default_config = {
@@ -22,12 +21,6 @@ const default_config = {
         {
           name: "media",
           links: [
-            {
-              name: "mastodon",
-              url: "https://mastodon.social",
-              icon: "brand-mastodon",
-              icon_color: palette.green,
-            },
             {
               name: "X",
               url: "x.com",
